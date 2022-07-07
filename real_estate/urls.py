@@ -6,7 +6,7 @@ from django.urls import include, path
 from django.contrib import admin
 from django.urls import path
 
-static_urls = static(settings.MEDIA_URL, document_root=settings.MEDIAL_ROOT)
+static_urls = static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 urlpatterns = [
     path("supersecret/", admin.site.urls),
