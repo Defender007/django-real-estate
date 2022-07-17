@@ -26,6 +26,7 @@ class AgentListAPIView(generics.ListAPIView):
         return Response(name_spaced_response,status=status.HTTP_200_OK)
 """
 
+
 class TopAgentsListAPIView(generics.ListAPIView):
     permission_classes = [permissions.IsAuthenticated]
     queryset = Profile.objects.filter(top_agent=True)
