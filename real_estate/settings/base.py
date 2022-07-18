@@ -15,7 +15,6 @@ from datetime import timedelta
 import logging
 import logging.config
 
-
 import environ
 
 env = environ.Env(DEBUG=(bool, False))
