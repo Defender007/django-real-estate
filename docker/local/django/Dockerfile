@@ -5,7 +5,7 @@ RUN mkdir $APP_HOME
 RUN mkdir $APP_HOME/staticfiles
 WORKDIR $APP_HOME
 
-LABEL maintainer='api.imperfect@gmail.com'
+LABEL maintainer='mydjangopythonprojects@gmail.com'
 LABEL youtube="https://www.youtube.com/c/APIImperfect"
 LABEL decription="Development image for Real Estate Project"
 
